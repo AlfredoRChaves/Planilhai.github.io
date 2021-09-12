@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.center{
+    max-width: 1100px;
+    margin:0 auto;
+    padding:0 2%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+header{
+    background-color: white;
+    padding: 20px 0;
+    border-bottom: 2px solid green;
+
+}
+
+.logo{
+    color: green;
+    transition: 0.4s;
+    margin-top: 5px;
+
+}
+.logo:hover{
+    color: limegreen;
+    transition: 0.4s;
+    
+}
+    
+.menu{
+    width: 80%;
+    text-align: right;
+    margin-top: 10px;
+
+}
+
+.menu a{
+    color:green;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 20px;
+    
+}
+
+.menu a:hover{
+    color:limegreen;
+    transition: 0.4s;
+}
+/*
+SECTION MAIN
+*/
+
+section.main{
+    background-image: url(main_fundo_branco.jpg);
+    padding: 20px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.main_cta{
+    width: 100%;
+    margin: 60px 0;
+    text-align: center;
+
+}
+.main_cta h2{
+    color: green;
+    font-size: 40px;
+
+}
+.main_cta p{
+    color:dimgrey;
+    font-size: 19px;
+    margin: 10px;
+
+}
+
+/*diferenciais*/
+
+.diferenciais{
+    display: flex;
+    flex-wrap: wrap;
+}
+.diferencial-single{
+    border-radius: 10px;
+    background-color: white;
+    width: 30.33%;
+    margin-right: 3%;
+    padding: 35px 20px;
+
+}
+
+.icone-h2{
+display: flex;
+flex-wrap: wrap;
+margin-bottom: 15px;
+}
+
+.icone-h2 i{
+    color:darkgreen ;
+    font-size: 22px;
+}
+.icone-h2 h2{
+
+    color:darkgreen ;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+
+.diferencial-single p{
+    color:dimgrey ;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+
+.check-diferencial-single p{
+    color:dimgrey ;
+    font-size: 14px;
+}
+
+.check-diferencial-single i{
+    color:green ;
+    font-size: 18px;
+}
+
+/*Social*/
+
+section.social{
+    
+    padding: 20px 0;
+    background-image: linear-gradient(to top, rgb(178, 247, 178), white);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    
+
+}
+
+.sociais{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom:solid rgba(0, 128, 0, 0.671) 3px;
+    border-right:solid rgba(0, 128, 0, 0.671) 3px;
+    background-color:white;
+    border-radius: 15px;
+}
+
+.social-siga{
+    width: 100%;
+    text-transform: uppercase;
+    color: green;
+
+}
+
+.social-single{
+    margin: 15px auto; 
+    color:rgba(9, 10, 10, 0.822)
+}
+
+.social-single i{
+font-size: 30px;
+}
+
+.social-single p{
+    font-size: 9px;
+
+}
+    
+.social-single:hover{
+    color: limegreen;
+    transition: 0.4s;
+
+}
+
+
+section.sobre{
+    padding: 80px 0;
+}
+
+.chamada-sobre{
+    width: 100%;
+    text-align: center;
+    
+}
+.chamada-sobre h2{
+    color: green;
+    text-transform: uppercase;
+
+}
+
+.conteudo-sobre{
+    display: flex;
+    flex-wrap: nowrap;
+
+
+    
+}
+
+.conteudo-sobre p{
+    margin:0 20px;
+    color:#144444;
+}
+
+.chamada-sobre p{
+    font-size: 14px;
+    color: dimgrey;
+    margin: 10px 0;
+}
+
+
+@media screen and (max-width: 768px){
+    .diferencial-single{
+        width: 100% !important;
+        margin-bottom: 20px !important;
+    }
+    .conteudo-sobre{
+        flex-wrap: wrap;
+        width: 100%;
+        text-align: center;
+    }
+    .conteudo-sobre p{
+        margin-bottom: 20px;
+    }
+    
+}
+
